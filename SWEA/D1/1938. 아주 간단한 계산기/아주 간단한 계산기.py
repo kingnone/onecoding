@@ -1,7 +1,7 @@
-x,y = map(int,input().split())
+a, b = map(int, input().split())
 
-add = x+y
-sub = x-y
-mul = x*y
-div = round(x//y)
+add = a+b
+sub = a-b
+mul = a*b
+div = round(a/b)
 print(f"{add}\n{sub}\n{mul}\n{div}")
