@@ -1,8 +1,10 @@
+import sys
+
 K = int(input())
 n_list = []
 
 for i in range(1, K+1):
-    num = int(input())
+    num = int(sys.stdin.readline())
     
     if num == 0 :
         n_list.pop()
