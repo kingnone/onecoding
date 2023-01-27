@@ -1,13 +1,10 @@
-num_list = []
-r_list = []
+n_list = []
 
 for i in range(10):
     num = int(input())
-    num_list.append(num)
+    n = num % 42
+    n_list.append(n)
 
-for j in num_list:
-    result = j % 42
-    r_list.append(result)
-    
-r = set(r_list)
-print(len(r))
+result = set(n_list)
+
+print(len(result))
